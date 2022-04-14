@@ -1,0 +1,9 @@
+{
+   "cpu_cap" : 100,
+   "image_uuid": "616d4ab2-832c-11e7-9392-784f438c8d54",
+   "hostname": "stopped",
+   "uuid" : "00000000-1f3e-4b11-b0ae-8494bb6ecd52",
+   "max_physical_memory" : 1024,
+   "quota" : 100,
+   "alias" : "stopped"
+}

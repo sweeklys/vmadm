@@ -1,0 +1,32 @@
+[package]
+name = "vmadm"
+version = "0.3.8"
+authors = ["Heinz N. Gies <heinz@project-fifo.net>"]
+
+[dependencies]
+serde = "1"
+serde_json = "1"
+serde_derive = "1"
+uuid = { version = "0.5", features = ["serde", "v4"] }
+toml = "0.4"
+clippy = { version = "*", optional = true }
+slog = {version = "2", features = ["max_level_trace", "release_max_level_debug"] }
+slog-term = "2"
+slog-async = "2"
+slog-scope = "2"
+slog-bunyan = "2"
+aud = "0.1"
+prettytable-rs = "^0.6"
+lazy_static = "0.2"
+regex = "0.2"
+rand = "0.3"
+reqwest = "0.7"
+chrono = { version = "0.4", features = ["serde", "rustc-serialize"] }
+bzip2 = "0.3"
+flate2 = "0.2"
+tempfile = "2.1"
+# indicatif = "0.5"
+
+[dependencies.clap]
+version = "2"
+features = ["yaml"]
